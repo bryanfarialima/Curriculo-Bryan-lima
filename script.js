@@ -1,4 +1,4 @@
-let idiomaAtual = 'pt'; // O currículo começa em português
+let idiomaAtual = 'en'; // O currículo começa em português
 
 function alternarIdioma() {
     // Seleciona todos os textos em português e inglês
