@@ -152,3 +152,29 @@ body {
         right: 15px;
     }
 }
+
+/* Estilos dos botões de Redes Sociais */
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-social {
+    background-color: transparent;
+    color: var(--white);
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    text-align: center;
+    flex: 1; /* Faz os botões ficarem do mesmo tamanho */
+}
+
+.btn-social:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--white);
+}
