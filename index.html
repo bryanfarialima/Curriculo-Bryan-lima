@@ -2,84 +2,65 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Currículo - Bryan</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Faria Lima - CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Bryan Faria Lima</h1>
-            <p>APAC | [AVSEC]</p>
-            <p>Email: bryanfarialima@gmail.com | Telefone: (21) 97066-4316</p>
-            <div class="social-links">
-                <a href="https://br.linkedin.com/in/bryan-faria-lima-98aaaa105" target="_blank">LinkedIn</a>
-                <a href="https://github.com/bryanfarialima" target="_blank">GitHub</a>
-            </div>
-        </header>
 
-        <section class="section">
-            <h2>Objetivo</h2>
-            <p>Desenvolver uma carreira sólida na aviação, utilizando minhas habilidades e experiências para contribuir com a segurança e eficiência das operações aéreas.</p>
-        </section>
+<div class="curriculo-container">
+    <button id="btn-idioma" onclick="alternarIdioma()">🇬🇧 English</button>
 
-        <section class="section">
-            <h2>Experiência Profissional</h2>
-            <div class="job">
-                <h3>Orbital - APAC (Agente de proteção da aviação civil)</h3>
-                <p>02/01/2024 - Atual</p>
-                <ul>
-                    <li>Agente de Proteção à Aviação nas companhias American, Delta, United, AirFrance, KLM, Luthtansa, ITA, Latam e Hangar Líder, especializado na aplicação de procedimentos de segurança para a aviação civil. Domínio de tecnologias de inspeção (como raio-x e detectores de metal) e na identificação de itens proibidos.
-                    </li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Santander - Gerente Empresarial</h3>
-                <p>01/05/2017 - 01/10/2021</p>
-                <ul>
-                    <li>Gestão de Carteira de Clientes, Análise de Crédito e Risco, Vendas e Negociação de Produtos Financeiros, Conhecimento de Mercado Financeiro</li>
-                </ul>
-            </div>
-        </section>
+    <aside class="lateral">
+        <h1>Bryan Faria Lima</h1>
+        <h2>
+            <span class="pt">Ciências Contábeis | Ciência da Computação</span>
+            <span class="en hidden">Accounting | Computer Science</span>
+        </h2>
 
-        <section class="section">
-            <h2>Educação</h2>
-            <div class="education">
-                <h3>Airpirt Service - Inspeção e Básico AVSEC</h3>
-                <p>2024</p>
-            </div>
-            <div class="education">
-                <h3>Estácio - Ciências Contábeis</h3>
-                <p>2017</p>
-            </div>
-            <div class="education">
-                <h3>Estacio - Ciências da Computação</h3>
-                <p>Cursando</p>
-            </div>
-            <div class="education">
-                <h3>Wizard - Inglês</h3>
-                <p>Cursando</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Certificações</h2>
+        <div class="secao-lateral">
+            <h3><span class="pt">Contato</span><span class="en hidden">Contact</span></h3>
             <ul>
-                <li>Certificado AVSEC Inspeção.</li>
-                <li>Certificação AVSEC Básico.</li>
-                <li>Carteira A e B</li>
+                <li>📍 Rio de Janeiro, RJ</li>
+                <li>📱 +55 (21) 97066 4316</li>
+                <li>✉️ bryanfarialima@gmail.com</li>
             </ul>
-        </section>
-
-        <section class="section">
-            <h2>Habilidades</h2>
+        </div>
+        
+        <div class="secao-lateral">
+            <h3><span class="pt">Competências</span><span class="en hidden">Skills</span></h3>
             <ul>
-                <li>Comunicação eficaz</li>
-                <li>Gestão de tempo</li>
-                <li>Trabalho em equipe</li>
-                <li>Segurança</li>
-            </ul>
-        </section>
-    </div>
+                <li>
+                    <span class="pt">Controle de Processos e Compliance</span>
+                    <span class="en hidden">Process Control & Compliance</span>
+                </li>
+                <li>Fullstack Development</li> </ul>
+        </div>
+    </aside>
+
+    <main class="principal">
+        <div class="secao">
+            <h3><span class="pt">Resumo Profissional</span><span class="en hidden">Professional Summary</span></h3>
+            <p class="pt">Profissional com sólida experiência nos setores bancário e de segurança operacional. Atualmente em transição/especialização para a área tecnológica...</p>
+            <p class="en hidden">Professional with solid experience in the banking and operational security sectors. Currently in transition/specialization to the technology field...</p>
+        </div>
+
+        <div class="secao">
+            <h3><span class="pt">Experiência</span><span class="en hidden">Experience</span></h3>
+            
+            <div class="item-cv">
+                <h4>
+                    <span class="pt">Agente de Proteção da Aviação Civil</span>
+                    <span class="en hidden">Civil Aviation Protection Agent</span>
+                </h4>
+                <div class="data-local">WFS/ORBITAL | 2024 - <span class="pt">Atual</span><span class="en hidden">Present</span></div>
+                <p class="pt">Atuação na segurança da aviação civil, garantindo o cumprimento rigoroso das normas da ANAC.</p>
+                <p class="en hidden">Acted in civil aviation security, ensuring strict compliance with ANAC regulations.</p>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
