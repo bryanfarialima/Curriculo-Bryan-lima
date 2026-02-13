@@ -17,6 +17,6 @@ function alternarIdioma() {
         elementosPT.forEach(el => el.classList.remove('hidden'));
         elementosEN.forEach(el => el.classList.add('hidden'));
         botao.innerHTML = '🇬🇧 English'; // Muda o texto do botão
-        idiomaAtual = 'pt';
+        idiomaAtual = 'en';
     }
 }
