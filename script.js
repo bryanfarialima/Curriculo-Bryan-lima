@@ -19,8 +19,4 @@ function alternarIdioma() {
         idiomaAtual = 'pt';
     }
 }
-
-// ESTA É A MÁGICA:
-// Assim que a página carrega, o JavaScript executa a função sozinho, 
-// mudando tudo para Inglês e já trocando o texto do botão automaticamente!
 alternarIdioma();
